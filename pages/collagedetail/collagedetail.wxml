@@ -1,0 +1,59 @@
+<!--pages/collagedetail/collagedetail.wxml-->
+<view>
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+  <block wx:for="{{movies}}" wx:for-index="index">  
+    <swiper-item>  
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+    </swiper-item>  
+  </block>  
+</swiper>
+<view class='shuiyin'><image class='user_pic' src='../../images/avatar.jpeg'></image></view>
+<view class='title'>
+<view class='title_name'>这里是商品的标题啊标题啊表标题啊标题啊表表表表踢踢踢踢踢</view>
+<view class='product_price'>
+<text class='now_price'>拼团价：¥1288.00/件</text><text class='old_price'>3900.00</text>
+</view>
+</view>
+
+<view class='collage'>
+<view>拼团剩余<text class='daojishi'>{{countDownDay}}</text>天<text class='daojishi'>{{countDownHour}}</text>小时<text class='daojishi'>{{countDownMinute}}</text>分<text class='daojishi'>{{countDownSecond}}</text>秒，还差<text class='daojishi'>6</text>人</view>
+<view class='collage_user'>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+<image class='user_pic' src='../../images/avatar.jpeg'></image>
+</view>
+<view>
+<text class='yaoqing'>快邀请好友一起来拼团吧！</text></view>
+</view>
+
+<view style='width:100%;text-align:center;height:40px;line-height:40px;'><text style='color:#CDCDC1'>——————</text><text>查看全部团详情</text><text style='color:#CDCDC1'>——————</text></view>
+<view class='user_info'>
+
+<view>
+<image class='user_pic2' src='../../images/avatar.jpeg'></image> <text class='username'>董晨星</text><text class='right'>2018-05-25 13:12:12 开团</text>
+</view>
+<view>
+<image class='user_pic2' src='../../images/avatar.jpeg'></image> <text class='username'>董晨星</text><text class='right'>2018-05-25 13:12:12 参团</text>
+</view><view>
+<image class='user_pic2' src='../../images/avatar.jpeg'></image> <text class='username'>董晨星</text><text class='right'>2018-05-25 13:12:12 参团</text>
+</view><view>
+<image class='user_pic2' src='../../images/avatar.jpeg'></image> <text class='username'>董晨星</text><text class='right'>2018-05-25 13:12:12 参团</text>
+</view>
+</view>
+
+<view class='play_jieshao'>
+<view><view class='shuxian'>拼团玩法</view><view class='right2'>查看详情></view></view>
+<view><image class='rule' src='../../images/play_rule.png'></image></view>
+</view>
+<view class='footer'>
+<button>快来邀请好友参团吧</button>
+
+</view>
+</view>

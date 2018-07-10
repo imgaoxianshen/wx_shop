@@ -1,0 +1,111 @@
+<view class="search-container">
+  <!--top  -->
+  <view class="top-container">
+    <view class="top">
+      <view class="search">
+        <icon class="search-icon" type='search' size="15" color="#d1d1d1"></icon>
+        <input bindinput="OnSearchInput" class="search-input" placeholder='请输入要搜索的商品' value="{{searchVal}}" confirm-type="search"></input>
+        <icon wx:if="{{searchVal}}" type="clear" size='15' color="#d1d1d1" bindtap="clearChoose"></icon>
+      </view>
+      <view bindtap="onSearchTap" wx:if="{{!isSearch}}" class="search-bottom {{searchVal?'choosed':''}}">搜索</view>
+    </view>
+    <block wx:if="{{isSearch}}">
+      <view class="top-xuan">
+        <view class="xuan-container" bindtap="OnchangeTap" data-xuan="1">
+          <text class="{{xuan==1?'xuan-color':'xuan-text'}}">综合</text>
+        </view>
+        <view class="xuan-container" bindtap="OnchangeTap" data-xuan="2">
+          <text class="{{xuan==2?'xuan-color':'xuan-text'}}">销量</text>
+        </view>
+        <view class="price-container" bindtap="OnchangeTap" data-xuan="3">
+          <text class="{{xuan==3?'xuan-color':'xuan-text'}}">价格</text>
+          <view class="icon-container">
+            <image class="xuan-icon" src="{{price_up==1&&xuan==3?'../../images/up-choose.png':'../../images/up.png'}}"></image>
+            <image class="xuan-icon" src="{{price_up==2&&xuan==3?'../../images/down-choose.png':'../../images/down.png'}}"></image>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <block wx:if="{{!isSearch}}" wx:key="*this">
+    <!--history  -->
+    <view class="margin-top"></view>
+    <view class="history">
+      <view class="history-top">
+        <text class="history-text">历史搜索</text>
+        <image class="del-icon" bindtap="OndelHistoryTap" src='../../images/del.png'></image>
+      </view>
+      <view class="history-container">
+        <block wx:for="{{history}}">
+          <view class="history-item">
+            <text class="history-item-text" data-keyword="{{item}}" bindtap="OnHistorySearchTap">{{item}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+    <!--hot  -->
+    <view class="history">
+      <view class="history-top">
+        <text class="history-text">热门搜索</text>
+      </view>
+      <view class="history-container">
+        <block wx:for="234234234">
+          <view class="history-item">
+            <text class="history-item-text">香水</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </block>
+
+  <!--搜索结果  -->
+
+  <block wx:else>
+    <block wx:if="{{!isFind}}">
+      <view class="margin-top-more"></view>
+      <!--没找到搜索结果   -->
+      <view class="not-find">
+        <text>没有找到 <text style="color:#7B418B;"> "{{searchVal}}"</text> 的搜索结果</text>
+        <text>为您推荐以下商品</text>
+      </view>
+
+      <view class="not-find-title">
+        <view class="line"></view>
+        <view class="title">
+          <view class="left"></view> “洗面奶”相关产品
+          <view class="left"></view>
+        </view>
+      </view>
+    </block>
+    <block wx:else>
+      <view class="margin-top"></view>
+    </block>
+
+    <view class="search-good-container">
+      <block wx:for="{{goods}}">
+        <view class="search-good-item">
+          <view>
+            <image mode="aspectFill" class="search-good-img" src="{{item.thumb}}"></image>
+          </view>
+          <view class="search-good-item-container">
+            <text class="search-good-title">{{item.title}}</text>
+            <text class="search-good-desc">冰晶嫩肤，清透毛孔，问责保湿，平衡水油，令肌肤洗后不紧绷</text>
+            <view class="search-good-ticket">
+              <view class="search-good-ticket-con">两天生产</view>
+              <view class="search-good-ticket-con">爆品</view>
+            </view>
+            <view class="good-msg-container">
+              <text class="search-good-price">￥{{item.marketprice}}</text>
+              <text class="search-good-pingjia">69条评价</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </block>
+
+
+  <!--返回顶部按钮  -->
+  <image wx:if="{{toTopShow}}" class="return-top" bindtap='OnTopTap' src="../../images/up_top.png"></image>
+
+</view>

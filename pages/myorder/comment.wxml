@@ -1,0 +1,22 @@
+<!--pages/myorder/comment.wxml-->
+<view class='title_co'>评价</view>
+<view class='content_co'>
+<view class='shop_title'>象涛测试商城</view>
+<view class='goods_info'>
+<view class='goods_left'>
+<image src="../../images/avatar.jpeg" alt="商品图片" class="goods-pic"></image>
+</view>
+<view class='info'>
+<view class='inner'>
+<text class='name'>2018春季新款套装时尚雪纺衬衫马甲九分阔腿裤三件套</text>
+</view>
+</view>
+<view class='goods_price'>
+<view class='price'>￥299.00</view>
+<view class='total'>X1</view>
+</view>
+</view>
+<view class='comment_form'>整单评价</view>
+<view class='content_form'>提交表单</view>
+</view>
+<button class='submit_co'>提交评价</button>

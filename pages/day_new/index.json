@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#F7F3F7",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "每日新品",
+  "backgroundColor": "#F7F3F7",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh":true
+}

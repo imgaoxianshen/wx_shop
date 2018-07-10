@@ -1,0 +1,93 @@
+
+.greybg{
+  background-color:#EFEFEF;
+
+}
+.form-submit{
+  height:480px;
+  border-top:1px #E8E8E8 solid;
+  background-color:#fff;
+  padding:5px;
+  width: 100%;
+}
+.item{
+  height:40px;
+  line-height:40px;
+  border-bottom:1px #E8E8E8 solid;
+  color: #4d4d4d;
+  font-size: 25rpx;
+}
+.item .login-input{
+  float:left;
+  font-size: 25rpx;
+  margin-left:20px;
+  padding-top:10px;
+}
+.item text{
+  padding-left: 5px;
+  float:left;
+  width: 15%
+}
+.picker{
+  float:left;
+  width: 100%
+}
+
+.btn_login{
+  margin-top:20px;
+  color: white;
+  background-color: #6D369D;
+  font-size: 25rpx;
+  height: 35px;
+  line-height: 35px;
+}
+.radio-group{
+  float:left;
+  margin-left:20px;
+
+}
+.picker1{
+  width: 33%;
+  float: left;
+  border: 1ps solid red;
+}
+.radio-gender{
+  width: 50%;
+  float: left;
+}
+radio {  
+  transform:scale(0.5);  
+} 
+.textarea{
+  color: #4d4d4d;
+  font-size: 25rpx;
+   height:70px;
+}
+.textarea text{
+  padding-left: 5px;
+  min-height:40px;
+  line-height:40px;
+  float:left;
+  width: 15%
+}
+.textarea .login-textarea{
+  float:right;
+   min-height:40px;
+  font-size: 25rpx;
+  margin-left:20px;
+  padding-top:10px;
+  width: 78%;
+}
+.tui-fr{
+  float:right;
+  margin-right:5px;
+}
+.default{
+  height:40px;
+  line-height:40px;
+  color: #4d4d4d;
+  font-size: 25rpx;
+}
+.default text{
+  width:150px;
+}

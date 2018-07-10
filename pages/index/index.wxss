@@ -1,0 +1,298 @@
+@import "../goods-template/goods-template.wxss";
+@import "../zhuanti-template/zhuanti-template.wxss";
+
+page {
+  background-color: #f4f4f4;
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  z-index: 999;
+}
+
+/*搜索框部分  */
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700rpx;
+  background-color: #f4f4f4;
+  height: 40rpx;
+  padding: 13rpx;
+  border-radius: 10rpx;
+}
+
+.search-icon {
+  padding-left: 20rpx;
+}
+
+.search-input {
+  font-size: 25rpx;
+  width: 100%;
+  padding: 0 20rpx;
+}
+
+/*类别部分*/
+
+.scroll {
+  display: flex;
+  align-items: center;
+  width: 700rpx;
+  border-bottom:1px solid #f4f4f4;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.scroll-view {
+  white-space: nowrap;
+  width: 640rpx;
+  height: 100rpx;
+}
+
+
+.scroll-view-two {
+  white-space: nowrap;
+  width: 750rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding:10rpx; 
+  background-color:#f4f4f4;
+}
+
+.scroll-view-text {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 26rpx;
+  color: #969696;
+}
+
+.scroll-item {
+  width: auto;
+  padding: 0 20rpx;
+  height: 90rpx;
+  color: #969696;
+  line-height: 90rpx;
+  display: inline-block;
+  font-size: 30rpx;
+}
+
+.selected {
+  color: #7b418b;
+  border-bottom: 4rpx solid #7b418b;
+}
+
+.add-more {
+  width: 10rpx;
+  padding: 0 20rpx;
+}
+
+.down-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.choose-caretory-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  padding: 20rpx 40rpx;
+}
+
+.catrgory-item {
+  padding:5rpx 15rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  border-radius: 30rpx;
+  border: 1px solid #969696;
+  color: #969696;
+  font-size: 25rpx;
+  margin: 5rpx 10rpx;
+  text-align: center;
+}
+
+
+.catrgory-item_two {
+  padding:5rpx 15rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  border-radius: 30rpx;
+  border: 1px solid #7B418B;
+  color: #7B418B;
+  font-size: 25rpx;
+  margin: 5rpx 10rpx;
+  text-align: center;
+  display: inline-block;
+}
+.catrgory-two-choosed{
+    background-color:#7B418B;
+    color: #fff;
+}
+
+.catrgory-choosed{
+    border: 1px solid #7B418B;
+    color: #7B418B;
+}
+
+.show-top {
+  margin-top: 160rpx;
+  background-color: white;
+}
+
+.margin-top{
+  margin-top: 220rpx;
+}
+
+/*轮播图  */
+
+.swipper-images {
+   height:300rpx; 
+   width:100%;
+}
+
+.pingzhi-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.pingzhi-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pingzhi-text {
+  font-size: 23rpx;
+  color: #7b418b;
+  margin-left: 10rpx;
+}
+
+.speak-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 725rpx;
+  padding-left: 25rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.speak-img {
+  height: 40rpx;
+  width: 120rpx;
+  padding: 15rpx;
+}
+
+.speak-text {
+  display: inline-block;
+  width:450rpx;
+  font-size: 27rpx;
+  color: #969696;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.spaek-more{
+  font-size:27rpx;
+  color:#7B418B;
+  margin-left:30rpx;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20rpx 0;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.category-text {
+  font-size: 23rpx;
+  margin-top: 10rpx;
+}
+
+/*精选  */
+
+.choose-container {
+  margin-top: 30rpx;
+  background-color: white;
+}
+
+.choose-top {
+  width: 100%;
+  height: 80rpx;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+
+ /* .choose-item {
+  padding-bottom: 40rpx;
+}
+
+.choose-item-image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.choose-item-msg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.choose-item-name {
+  font-size: 28rpx;
+  color: #787878;
+}
+
+.choose-item-money {
+  color: orange;
+  font-size: 28rpx;
+}  */
+
+.recommend-container {
+  margin-top: 30rpx;
+  background-color: white;
+}
+
+.goods-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}

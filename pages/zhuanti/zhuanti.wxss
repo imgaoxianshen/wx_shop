@@ -1,0 +1,60 @@
+@import "../goods-template/goods-template.wxss";
+@import "../zhuanti-template/zhuanti-template.wxss";
+
+page {
+  background-color: #f4f4f4;
+}
+
+.zhuanti-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.zhuanti-image {
+  width: 100%;
+}
+
+.zhuanti-detail {
+  text-align: center;
+  width: 700rpx;
+  padding: 25rpx;
+  background-color: #fff;
+}
+
+.zhuanti-detail-top {
+  display: block;
+  font-size: 28rpx;
+}
+
+.zhuanti-detail-end {
+  display: block;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+  color: #969696;
+}
+
+.zhuanti-content-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  width: 750rpx;
+  flex-wrap: wrap;
+}
+
+.zhuanti-title {
+  text-align: center;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+
+.more {
+  width: 100%;
+  background-color: white;
+  margin-top: 40rpx;
+}
+
+.more-title {
+  text-align: center;
+  padding:20rpx;
+  font-size: 30rpx;
+}

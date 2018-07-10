@@ -1,0 +1,12 @@
+<!--pages/day_new/index.wxml-->
+<import src="../day_new-template/day_new-template.wxml" />
+<view class="day_new-container">
+  <view class="more">
+    <view class="more-time more-time_line">
+        <view class="more-time_tips more-time_tips_in-line">{{time}}</view>
+    </view>
+    <block wx:for="asdfgh" wx:key="*this">
+      <template is="day_new"></template>
+    </block>
+  </view>
+</view>

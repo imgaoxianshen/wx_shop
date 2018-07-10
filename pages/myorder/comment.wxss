@@ -1,0 +1,87 @@
+/* pages/myorder/comment.wxss */
+.title_co{
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid #E7E7E7;
+  border-top: 1px solid #E7E7E7;
+  height: 40px;
+  background-color:#F7F7F7;
+  line-height:40px;
+}
+.submit_co{
+  color:#fff;
+  background-color:#EF4F4F;
+  margin:5px;
+}
+.content_co{
+  border-top:1px solid #E7E7E7;
+  margin-top:15px;
+  background-color:#fff;
+}
+.shop_title{
+  margin-left:5px;
+  margin-right:5px;
+  height:40px;
+  line-height:40px;
+  border-bottom:1px solid #E7E7E7;
+  font-size:16px;
+}
+.goods_info{
+  height: 60px;
+  border-bottom:1px solid #E7E7E7;
+  padding: 5px 0px;
+}
+.goods_left{
+ width:56px;
+height:56px;
+ margin-left:5px;
+float: left;
+}
+.goods-pic{
+  width:100%;
+  height:100%;
+  border-radius:5px;
+}
+.info{
+  width: 100%;
+  float: left;
+  margin-left: -50px;
+  margin-right: -60px;
+}
+.inner{
+  margin-left: 60px;
+  margin-right: 80px;
+}
+
+.name{
+  height:32px;
+line-height:32px;
+overflow:hidden;
+
+}
+.goods_price{
+  float: right;
+  width: 60px;
+  height: 54px;
+  margin-left: -60px;
+}
+.price{
+  height: 18px;
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+}
+.total{
+  height: 18px;
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+}
+.comment_form{
+  height:40px;
+  line-height:40px;
+  font-size:16px;
+  padding-left:10px;
+  border-bottom:1px solid #E7E7E7;
+  color: #888888;
+}

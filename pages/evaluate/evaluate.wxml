@@ -1,0 +1,158 @@
+<!--pages/evaluate/evaluate.wxml-->
+<view class="container">
+    <view class="goods_satisfied">
+        <view class="title">商品满意度</view>
+        <view class="satisfied">5</view>
+    </view>
+    <view class="clear"></view>
+    <view class="customer_evaluate">
+        <view class="top">
+            <view class="customer">
+                <image class="customer_img" src="../../images/customer.png" />
+                <view class="customer_name">A***n</view>
+            </view>
+            <view class="detail_satisfied">
+                <image class="satisfied_img" src="../../images/smile.png" />
+                <view class="satisfied_evaluate">好评</view>
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="detail_evaluate">
+            很满意，很棒，没毛病。
+        </view>
+        <view class="bottom">
+            <view class="goods_attribute">
+                颜色：天蓝色；尺寸：L
+            </view>
+            <view class="date">
+                2018-7-04
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="line"></view>
+        <view class="business_reply">
+            <view class="business">商家回复</view>
+            <view class="reply">感谢您的支持</view>
+        </view>
+    </view>
+    <view class="customer_evaluate">
+        <view class="top">
+            <view class="customer">
+                <image class="customer_img" src="../../images/customer.png" />
+                <view class="customer_name">A***n</view>
+            </view>
+            <view class="detail_satisfied">
+                <image class="satisfied_img" src="../../images/smile.png" />
+                <view class="satisfied_evaluate">好评</view>
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="detail_evaluate">
+            很满意，很棒，没毛病。
+        </view>
+        <view class="bottom">
+            <view class="goods_attribute">
+                颜色：天蓝色；尺寸：L
+            </view>
+            <view class="date">
+                2018-7-04
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="line"></view>
+        <view class="business_reply">
+            <view class="business">商家回复</view>
+            <view class="reply">感谢您的支持</view>
+        </view>
+    </view>
+    <view class="customer_evaluate">
+        <view class="top">
+            <view class="customer">
+                <image class="customer_img" src="../../images/customer.png" />
+                <view class="customer_name">A***n</view>
+            </view>
+            <view class="detail_satisfied">
+                <image class="satisfied_img" src="../../images/smile.png" />
+                <view class="satisfied_evaluate">好评</view>
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="detail_evaluate">
+            很满意，很棒，没毛病。
+        </view>
+        <view class="bottom">
+            <view class="goods_attribute">
+                颜色：天蓝色；尺寸：L
+            </view>
+            <view class="date">
+                2018-7-04
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="line"></view>
+        <view class="business_reply">
+            <view class="business">商家回复</view>
+            <view class="reply">感谢您的支持</view>
+        </view>
+    </view>
+    <view class="customer_evaluate">
+        <view class="top">
+            <view class="customer">
+                <image class="customer_img" src="../../images/customer.png" />
+                <view class="customer_name">A***n</view>
+            </view>
+            <view class="detail_satisfied">
+                <image class="satisfied_img" src="../../images/smile.png" />
+                <view class="satisfied_evaluate">好评</view>
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="detail_evaluate">
+            很满意，很棒，没毛病。
+        </view>
+        <view class="bottom">
+            <view class="goods_attribute">
+                颜色：天蓝色；尺寸：L
+            </view>
+            <view class="date">
+                2018-7-04
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="line"></view>
+        <view class="business_reply">
+            <view class="business">商家回复</view>
+            <view class="reply">感谢您的支持</view>
+        </view>
+    </view>
+    <view class="customer_evaluate">
+        <view class="top">
+            <view class="customer">
+                <image class="customer_img" src="../../images/customer.png" />
+                <view class="customer_name">A***n</view>
+            </view>
+            <view class="detail_satisfied">
+                <image class="satisfied_img" src="../../images/smile.png" />
+                <view class="satisfied_evaluate">好评</view>
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="detail_evaluate">
+            很满意，很棒，没毛病。
+        </view>
+        <view class="bottom">
+            <view class="goods_attribute">
+                颜色：天蓝色；尺寸：L
+            </view>
+            <view class="date">
+                2018-7-04
+            </view>
+        </view>
+        <view class="clear"></view>
+        <view class="line"></view>
+        <view class="business_reply">
+            <view class="business">商家回复</view>
+            <view class="reply">感谢您的支持</view>
+        </view>
+    </view>
+</view>

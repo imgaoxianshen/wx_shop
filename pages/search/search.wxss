@@ -1,0 +1,280 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-container {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 20rpx;
+}
+
+/*搜索框部分  */
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 600rpx;
+  background-color: #f4f4f4;
+  height: 40rpx;
+  padding: 13rpx;
+  border-radius: 10rpx;
+}
+
+.search-icon {
+  padding-left: 20rpx;
+}
+
+.search-input {
+  font-size: 25rpx;
+  width: 100%;
+  padding: 0 20rpx;
+}
+
+.search-bottom {
+  width: 100rpx;
+  background-color: #f4f4f4;
+  margin-left: 10rpx;
+  text-align: center;
+  font-size: 25rpx;
+  line-height: 66rpx;
+  height: 66rpx;
+  border-radius: 10rpx;
+}
+
+.choosed {
+  background-color: #7b418b;
+  color: white;
+}
+
+/*history  */
+
+.margin-top {
+  margin-top: 110rpx;
+  border-top: 1px solid #f4f4f4;
+}
+
+.margin-top-more {
+  margin-top: 140rpx;
+}
+
+.history {
+  width: 700rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 25rpx;
+  background-color: white;
+}
+
+.del-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.history-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-text {
+  color: #d1d1d1;
+  font-size: 28rpx;
+}
+
+.history-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.history-item {
+  border: 1px solid #f4f4f4;
+  padding: 5rpx 10rpx;
+  margin: 20rpx 20rpx;
+}
+
+.history-item-text {
+  font-size: 25rpx;
+  color: #969696;
+}
+
+/*search-xuan  */
+
+.top-xuan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 750rpx;
+  background-color: white;
+}
+
+.xuan-text {
+  font-size: 25rpx;
+  color: #969696;
+}
+
+.xuan-color {
+  color: #7b418b;
+  font-size: 25rpx;
+}
+
+.xuan-container {
+  height: 50rpx;
+  width: 33%;
+  text-align: center;
+  line-height: 50rpx;
+  padding-bottom: 10rpx;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  justify-content: center;
+  padding-bottom: 10rpx;
+}
+
+.xuan-icon {
+  width: 10rpx;
+  height: 10rpx;
+  padding: 5rpx;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+}
+
+/*商品界面  */
+
+.search-good-container {
+  display: flex;
+  flex-direction: column;
+  width: 700;
+  padding: 25rpx;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.search-good-item-container {
+  padding:0 20rpx;
+}
+
+.search-good-img {
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.search-good-item {
+  display: flex;
+}
+
+.search-good-title {
+  font-size: 30rpx;
+  display: block;
+}
+
+.search-good-desc {
+  display: block;
+  margin-top: 20rpx;
+  color: #a19273;
+}
+
+.search-good-ticket {
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.search-good-ticket-con {
+  margin-right: 20rpx;
+  background-color: #a19273;
+  color: white;
+  padding: 3rpx 5rpx;
+  font-size: 20rpx;
+  border-radius: 5rpx;
+}
+
+.good-msg-container {
+  margin-top: 20rpx;
+}
+
+.search-good-price {
+  color: red;
+  font-weight: bold;
+  font-size: 26rpx;
+}
+
+.search-good-pingjia {
+  margin-left: 20rpx;
+  color: #969696;
+  font-size: 20rpx;
+  vertical-align: text-bottom;
+}
+
+/*返回顶部  */
+
+.return-top {
+  position: fixed;
+  bottom: 100rpx;
+  right: 20rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/*没找到商品  */
+
+.not-find {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  padding: 20rpx 0;
+  line-height: 40rpx;
+  color: #969696;
+}
+
+.not-find-title {
+  width: 100%;
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: center;
+  color: red;
+  position: relative;
+}
+
+.title {
+  height: 40rpx;
+  line-height: 40rpx;
+  background-color:#f1f1f1;
+  z-index: 200;
+  padding:0 10rpx;
+}
+
+.line {
+  height: 0;
+  border: 1px solid #d1d1d1;
+  width: 600rpx;
+  position: absolute;
+  top: 20rpx;
+  margin-top:20rpx;
+}
+
+.left{
+  width:20rpx;
+  height:5rpx;
+  display: inline-block;
+  border-top:1px solid #d1d1d1;
+  border-bottom:1px solid #d1d1d1;
+  transform: rotate(135deg);
+  vertical-align:middle;
+}

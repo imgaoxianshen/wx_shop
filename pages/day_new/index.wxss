@@ -1,0 +1,35 @@
+/* pages/day_new/index.wxss */
+@import "../day_new-template/day_new-template.wxss";
+
+page {
+  background-color: #f4f4f4;
+}
+
+
+.more {
+  width: 100%;
+  background-color: #F7F3F7;
+}
+
+.more-time {
+  width:65%;
+  margin:1em auto;
+  line-height:1.6em;
+  font-size:14px;
+  text-align:center; 
+}
+.more-time_line{
+  border-top:1px solid #e5e5e5;
+  margin-top:2.4em;
+}
+.more-time_tips {
+  display:inline-block;
+  vertical-align:middle;
+}
+.more-time_tips_in-line{
+  position:relative;
+  top:-.9em;
+  padding:0 .55em;
+  background-color:#F7F3F7;
+  color: #636563;
+}

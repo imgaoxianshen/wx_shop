@@ -1,0 +1,38 @@
+<view>
+<view class='title'>Armani制造商直供</view>
+<view class='box'>
+  <view class='list'>
+  <navigator url='../goods_details/goods_details'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </navigator>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+
+</view>
+</view>

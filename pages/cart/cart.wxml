@@ -1,0 +1,55 @@
+<!--pages/cart/cart.wxml-->
+<view class="container">
+    <block wx:for="{{default}}" wx:for-item="property" wx:for-index="idx" wx:key="id">
+        <view class="cart_detail">
+            <view class="circle" data-idx="{{idx}}" data-src="{{img}}" bindtap="select">
+                
+                <view wx:if="{{selectId == idx}}">
+                  <image class="img" src="{{img}}" />
+                </view>
+                <view wx:else>
+                  <image class="img" src="{{all_img}}" /> 
+                    <!-- <view wx:if="{{else_img}}">
+                    <image class="img" src="{{else_img}}" />
+                  </view>
+                  <view wx:else>
+                    <image class="img" src="{{img}}" />
+                  </view>  -->
+                </view>  
+            </view>
+            <view class="goods"><image class="img" src="../../images/customer.png" /></view>
+            <view class="detail">
+                <view class="top">
+                    <view class="name">舒适丝光羊毛长袖开襟针织衫弹性修身</view>
+                    <view class="price">￥399</view>
+                </view>
+                <view class="clear"></view>
+                <view class="attribute">4013/藏青，XXL</view>
+                <view class="num-box">
+                    <view class="num-jian {{buyNumber == 1 ? 'hui': ''}}" bindtap="numJianTap">-</view>
+                    <view class="num-input">
+                        {{buyNumber}}
+                    </view>
+                    <view class="num-jia" bindtap="numJiaTap">+</view>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>
+<view class="settle">
+    <view class="circle" data-select="{{isSelect}}" bindtap="allSelect"><image class="img" src="{{all_img}}" /></view>
+    <view wx:if="{{isSelect}}">
+        <view class="all_select">已选(2)</view>
+    </view>
+    <view wx:else>
+        <view class="all_select">全选</view>
+    </view>
+    <view wx:if="{{isSelect}}">
+        <view class="button {{isSelect == false ? 'default': ''}}">去结算</view>
+    </view>
+    <view wx:else>
+        <view class="default_button">去结算</view>
+    </view>
+    <view class="total">￥0</view>
+    <view class="count">合计：</view>
+</view>

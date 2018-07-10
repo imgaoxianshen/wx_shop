@@ -1,0 +1,9 @@
+<template name="good">
+  <view class="good-container">
+    <image class="good-image" src='{{thumb}}'></image>
+    <!--标签  -->
+    <!-- <view class="good-ticket">{{title}}</view> -->
+    <text class="good-name">{{title}}</text>
+    <text class="good-price">￥{{marketprice}}</text>
+  </view>
+</template>

@@ -1,0 +1,43 @@
+<block wx:if="{{isLogin}}">
+  <view>
+    <!--头像部分  -->
+
+    <view class="avatar-container">
+      <image class='user-pic' src="../../images/avatar.jpeg"></image>
+      <view class='user-name'>马云</view>
+    </view>
+
+    <!--详细条目部分-->
+    <view>
+
+      <view class='nav'>
+        <navigator url='../myorder/myorder' hover-class="none">我的订单
+          <image class='jump-right' src='../../images/jump_right.png'></image>
+        </navigator>
+      </view>
+
+      <view class='nav'>
+        <navigator url='../mycollage/mycollage' hover-class="none">我的拼团
+          <image class='jump-right' src='../../images/jump_right.png'></image>
+        </navigator>
+      </view>
+
+      <view class='nav'>
+        <navigator url='../doccollect/doccollect' hover-class="none">退款/退货
+          <image class='jump-right' src='../../images/jump_right.png'></image>
+        </navigator>
+      </view>
+
+      <view class='nav'>
+        <navigator url='../myaddress/myaddress' hover-class="none">地址管理
+          <image class='jump-right' src='../../images/jump_right.png'></image>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</block>
+<block wx:else>
+  <view class='shouquan'>
+    <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">授权用户信息</button>
+  </view>
+</block>

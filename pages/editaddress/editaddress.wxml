@@ -1,0 +1,44 @@
+<view class="greybg">
+  <view class='form-submit'>
+    <form bindsubmit="formSubmit">
+      <view class='item'>
+        <text>收货人</text>
+        <input id="name" name="realname" class="login-input" type="text" placeholder="请输入您的姓名" value="{{userInfo.realname}}"/>
+      </view>
+      <view class='item'>
+        <text>手机号码</text>
+        <input id="mobile" name="mobile" class="login-input" type="text" bindblur="checkmobile" placeholder="请输入您的手机号码" value='{{userInfo.mobile}}' />
+      </view>
+      <view class='item last'>
+        <text style='float:left;'>所在城市</text>
+        <view style='float:left;width:70%;margin-left:20px;'>
+          <picker bindchange="selectedProvince" value="{{index}}" range="{{arrayProvince}}">
+            <view class="picker1">
+              {{province}}
+            </view>
+          </picker>
+          <picker bindchange="selectedCity" value="{{index}}" range="{{arrayCity}}">
+            <view class="picker1">
+              {{city}}
+            </view>
+          </picker>
+          <picker bindchange="selectedDistrict" value="{{index}}" range="{{arrayDistrict}}">
+            <view class="picker1">
+              {{district}}
+            </view>
+          </picker>
+        </view>
+      </view>
+      <view class='textarea'>
+        <text>详细地址</text>
+        <textarea  name="doc_hope" class="login-textarea"style='border-bottom:1px #E8E8E8 solid;' value='{{userInfo.doc_hope}}' maxlength='-1' auto-height='true' placeholder="请输入您的详细地址" ></textarea> 
+      </view>
+       <view class='default'>
+        <text>设为默认地址</text>
+        <switch class="tui-fr" color="#6D369D" checked="{{isChecked3}}" bindchange="changeSwitch3"/>
+      </view>
+      <view style='clear:both;'></view>
+      <button class="btn_login" form-type="submit">保存</button>
+    </form>
+  </view>
+</view>

@@ -1,0 +1,45 @@
+.article-container{
+  display: flex;
+  flex-direction: column;
+  width:700rpx;
+  margin: 0 auto;
+}
+
+.article-title{
+  font-size:35rpx;
+  font-weight: bold;
+}
+
+.article-name{
+  font-size:20rpx;
+  color:#969696;
+}
+
+.article-time{
+  font-size:20rpx;
+  color:#969696;
+  margin-left:20rpx;
+}
+
+.article-content{
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.article-end-container{
+  font-size:28rpx;
+  margin-top:40rpx;
+  height:30rpx;
+  line-height: 30rpx;
+}
+
+.love-icon{
+  width:30rpx;
+  height:30rpx;
+  margin-left:40rpx;
+  vertical-align: top;
+}
+
+.num{
+  margin-left:10rpx;
+}

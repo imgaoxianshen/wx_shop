@@ -1,0 +1,10 @@
+<template name="zhuanti">
+  <view class="choose-item"  bindtap="OnZhuanTiTap">
+    <image mode="aspectFill" class="choose-item-image" src="{{thumb}}"></image>
+    <view class="choose-item-msg">
+      <text class="choose-item-name">{{name}}</text>
+      <!--数据库中没有字段诶-->
+      <text class="choose-item-money">25元/起</text>
+    </view>
+  </view>
+</template>

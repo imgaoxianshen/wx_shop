@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/hot_sell/index",
+    "pages/day_new/index",
+    "pages/zhuanti/zhuanti",
+    "pages/cart/cart",
+    "pages/category/category",
+    "pages/goods_list/goods_list",
+	  "pages/confirm_order/confirm_order",
+	  "pages/pay_fail/pay_fail",
+	  "pages/myorder/myorder",
+    "pages/myaddress/myaddress",
+    "pages/orderdetail/orderdetail",
+    "pages/editaddress/editaddress",
+    "pages/mycollage/mycollage",
+    "pages/center/center",
+    "pages/article/article",
+    "pages/search/search",
+    "pages/collagedetail/collagedetail",
+    "pages/goods_details/goods_details",
+    "pages/article-list/article-list",
+    "pages/myorder/comment",
+    "pages/aftersale/aftersale",
+    "pages/evaluate/evaluate"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "xt商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor":"#7B418B",
+    "color":"#d1d1d1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "text": "我的"
+      }
+    ]
+  }
+}

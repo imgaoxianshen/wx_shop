@@ -1,0 +1,115 @@
+<view style='width:96%;margin-left:2%;background:#F4F4F4;border-radius:2px;height:35px;font-size:13px;line-height: 35px;margin-bottom:5px;'>
+<image src='../../images/sousuo.png' style='height:21px;width:21px;padding-top:7px;padding-left:7px;'></image>
+<text style='position:fixed;color:#A6A6A6;margin-left:10px;'>请输入要被搜索的商品</text>
+</view>
+<view style='width:100%;'>
+  <view style='width:20%;height:{{height}}px;overflow-y: scroll;position:fixed;border-top:1px #F2F2F2 solid;border-right:1px #F2F2F2 solid;'>
+      <view class="list_left {{num==1?'cur':''}}">经典男装</view>
+      <view class='list_left'>潮流女装</view>
+      <view class='list_left'>光学眼镜</view>
+      <view class='list_left'>内衣配饰</view>
+      <view class='list_left'>母婴童装</view>
+      <view class='list_left'>男女鞋子</view>
+      <view class='list_left'>户外运动</view>
+      <view class='list_left'>箱包出行</view>
+      <view class='list_left'>美妆个户</view>
+      <view class='list_left'>生活居家</view>
+      <view class='list_left'>厨房水具</view>
+      <view class='list_left'>男女鞋子</view>
+      <view class='list_left'>经典男装</view>
+      <view class='list_left'>潮流女装</view>
+      <view class='list_left'>光学眼镜</view>
+      <view class='list_left'>内衣配饰</view>
+      <view class='list_left'>母婴童装</view>
+      <view class='list_left'>男女鞋子</view>
+  </view>
+  <view style='width:80%;height:{{height}}px;overflow-y: scroll;position:fixed;left:20%;border-top:1px #F2F2F2 solid;'>
+    <image src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=715805757,2162331109&fm=27&gp=0.jpg' style='width:94%;margin-left:3%;height:135px;border-radius:5px;margin-top:8px;'></image>
+    <view>
+    <view style='width:100%;text-align:center;height:60px;line-height:60px;'><text style='color:#CDCDC1'>——</text>  男士内搭 <text style='color:#CDCDC1'>——</text></view>
+    <view  class='box'>
+        <view class='fenlei'>
+          <navigator url='../goods_list/goods_list'>
+          <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+          <view>卫衣</view>
+          </navigator>
+        </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+    </view>
+    <view style='width:100%;text-align:center;height:60px;line-height:60px;'><text style='color:#CDCDC1'>——</text>  男士外套 <text style='color:#CDCDC1'>——</text></view>
+    <view  class='box'>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+    </view>
+    <view style='width:100%;text-align:center;height:60px;line-height:60px;'><text style='color:#CDCDC1'>——</text>  男士鞋袜 <text style='color:#CDCDC1'>——</text></view>
+    <view  class='box'>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+      <view class='fenlei'>
+        <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+        <view>卫衣</view>
+      </view>
+    </view>
+    </view>
+  </view>
+</view>
+

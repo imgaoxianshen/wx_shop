@@ -1,0 +1,39 @@
+<!--pages/hot_sell/index.wxml-->
+<view>
+
+<view class='box'>
+  <view class='list'>
+  <navigator url='../goods_details/goods_details'>
+    <image src='https://gd2.alicdn.com/imgextra/i4/750666440/TB2vaNNnR8kpuFjSspeXXc7IpXa_!!750666440.jpg_400x400.jpg'></image>
+    <view class='goods_title'>JHXC 波西米亚民族风宽松雪纺阔腿裤女夏季九分裤休闲裤沙滩裙裤</view>
+    <view class='goods_price'>￥199</view>
+  </navigator>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='https://gd2.alicdn.com/imgextra/i4/750666440/TB2vaNNnR8kpuFjSspeXXc7IpXa_!!750666440.jpg_400x400.jpg'></image>
+    <view class='goods_title'>JHXC 波西米亚民族风宽松雪纺阔腿裤女夏季九分裤休闲裤沙滩裙裤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='https://gd2.alicdn.com/imgextra/i4/750666440/TB2vaNNnR8kpuFjSspeXXc7IpXa_!!750666440.jpg_400x400.jpg'></image>
+    <view class='goods_title'>JHXC 波西米亚民族风宽松雪纺阔腿裤女夏季九分裤休闲裤沙滩裙裤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+  <view class='list'>
+    <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    <view class='goods_title'>双面不是关柔是的T恤</view>
+    <view class='goods_price'>￥199</view>
+  </view>
+
+</view>
+</view>

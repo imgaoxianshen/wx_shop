@@ -1,0 +1,110 @@
+/* pages/evaluate/evaluate.wxss */
+.container {
+    padding: 3rpx 0;
+}
+.goods_satisfied {
+    width: 100%;
+    margin-bottom: 20rpx;
+    background-color: #fff;
+    box-shadow: 1px 0px 2px #848284;
+}
+.goods_satisfied .title {
+    font-size: 30rpx;
+    font-family: "楷体";
+    padding: 20rpx 0 15rpx 20rpx;
+    float: left;
+}
+.goods_satisfied .satisfied{
+    font-size: 30rpx;
+    font-family: "楷体";
+    padding: 15rpx 20rpx 15rpx 0;
+    color: #1afa29;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.customer_evaluate {
+    width: 100%;
+    margin-bottom: 20rpx;
+    background-color: #fff;
+    box-shadow: 1px 0px 2px #848284;
+}
+.customer {
+    padding: 40rpx 0 20rpx 20rpx;
+    float: left;
+}
+.customer .customer_img {
+    height: 100rpx;
+    width: 100rpx;
+    float: left;
+    margin-right: 15rpx;
+    margin-left: 7rpx;
+    border-radius: 50%;
+}
+.customer .customer_name {
+    height: 100rpx;
+    line-height: 100rpx;
+    float: right;
+    padding-left: 5rpx;
+}
+.detail_satisfied {
+    padding: 40rpx 25rpx;
+    float: right;
+}
+.detail_satisfied .satisfied_img{
+    height: 50rpx;
+    width: 50rpx;
+    float: left;
+    margin-right: 15rpx;
+    padding: 25rpx 0;
+}
+.detail_satisfied .satisfied_evaluate{
+    font-size: 30rpx;
+    font-family: "楷体";
+    color: #1afa29;
+    float: right;
+    height: 50rpx;
+    line-height: 51rpx;
+    padding: 25rpx 0;
+}
+.detail_evaluate {
+    font-family: "楷体";
+    font-size: 35rpx;
+    padding: 10rpx 30rpx;
+}
+.goods_attribute {
+    font-size: 25rpx;
+    font-family: "楷体";
+    color: #DED7DE;
+    padding: 30rpx 40rpx;
+    float: left;
+}
+.date {
+    font-size: 25rpx;
+    font-family: "楷体";
+    color: #DED7DE;
+    padding: 25rpx 30rpx;
+    float: right;
+}
+.line {
+    height: 1rpx;
+    background: #d6d3d6;
+    margin: 0 30rpx 0 42rpx;
+}
+.business_reply {
+    border:1rpx solid #d6d3d6;
+    margin: 30rpx 30rpx 30rpx 42rpx;
+    background-color: #FFF7FF;
+}
+.business_reply .business {
+    font-family: "楷体";
+    font-size: 30rpx;
+    color: #1afa29;
+    padding: 20rpx;
+}
+.business_reply .reply {
+    font-family: "楷体";
+    font-size: 30rpx;
+    padding: 0 30rpx 20rpx 20rpx;
+}

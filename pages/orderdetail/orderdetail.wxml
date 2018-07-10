@@ -1,0 +1,65 @@
+<!--pages/orderdetail/orderdetail.wxml-->
+
+<view class='order_status'>
+<image class='order_status_icon' src="../../images/avatar.jpeg"></image><text>未支付\n需支付89</text>
+<text></text>
+</view>
+<view class='notice'>
+请在115分钟20秒内完成支付，超时订单自动取消。
+</view>
+<view class='address'>
+<view class='line'>收货地址</view>
+<view><text class='name'>马云</text><text class='tel'>17527256325</text>
+</view>
+<view><text class='dizhi'>浙江省\t杭州市</text></view>
+<view><text class='dizhi'>西湖区\t紫金创业园</text></view>
+</view>
+<view class='product_info'>
+<view class="hd">
+<text class="orderId">商家名称：象涛小店</text>
+<view class="od-cancel"><image class='order_status_icon' src="../../images/avatar.jpeg" ></image></view>
+</view>
+<view class='content'>
+<navigator url='../orderdetail/orderdetail' hover-class="none" >
+<view class="bd">
+<view class="left">
+<image src="../../images/avatar.jpeg" alt="商品图片" class="user-pic"></image>
+</view>
+<view class="middle">
+<view class="goodInfo">
+<view>
+<text>这是商品的标题</text>
+<text>黑色，M(41-42）</text>
+<text class="money">¥89X1</text>
+</view>
+</view>
+</view>
+</view>
+</navigator>
+</view>
+<view class="bottom">
+备注留言：无
+</view>
+</view>
+<view class='order_info'>
+<text>订单编号：120154684646554165</text>
+<text>下单时间：2018-07-03 15:23:21</text>
+</view>
+<view class='price_info'>
+<view class='real-money'>
+<text>实付款</text>
+<text class='float_right'>¥89</text>
+</view>
+<view class='order_price'>
+<text>订单金额</text>
+<text class='float_right'>¥89</text>
+</view>
+<view>
+<text>余额支付</text>
+<text class='float_right'>-¥0</text>
+</view>
+</view>
+<view class='operate'>
+<button class="p4" indtap="cancleorder">取消订单</button>
+<button class="p4" indtap="payagain">去付款</button></view>
+

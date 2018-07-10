@@ -1,0 +1,21 @@
+<import src="../goods-template/goods-template.wxml" />
+<import src="../zhuanti-template/zhuanti-template.wxml" />
+<view class="zhuanti-container">
+  <image class="zhuanti-image" src="../../images/shop.jpg"></image>
+  <view class="zhuanti-detail">
+    <text class="zhuanti-detail-top">保护美瞳，你就差这幅蓝光眼镜了</text>
+    <text class="zhuanti-detail-end">夏季你是喜欢裙子还是T恤呢？和闺蜜一起，这样买最省钱\n拼团流程:\n第一步：必要老客户选择喜欢的\n</text>
+  </view>
+  <view class="zhuanti-title">为您精选</view>
+  <view class="zhuanti-content-container">
+    <block wx:for="123123" wx:key="*this">
+      <template is="good"></template>
+    </block>
+  </view>
+  <view class="more">
+    <view class="more-title">更多精彩专题</view>
+    <block wx:for="123" wx:key="*this">
+      <template is="zhuanti"></template>
+    </block>
+  </view>
+</view>

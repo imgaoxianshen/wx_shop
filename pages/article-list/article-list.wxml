@@ -1,0 +1,11 @@
+<view class="article-list-container">
+  <block wx:for="2342334654" wx:key="*this">
+    <view class="article-container" bindtap="OnArticleTap">
+      <image class="article-img" src="../../images/shop.jpg"></image>
+      <text class="article-title">为什么高考完了,它火的一塌糊涂</text>
+      <text class="article-name">小必姐</text>
+      <text class="article-time">2018-07-03</text>
+    </view>
+  </block>
+
+</view>

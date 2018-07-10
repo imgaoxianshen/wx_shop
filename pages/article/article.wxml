@@ -1,0 +1,19 @@
+<view class="article-container">
+  <view class="article-title">为什么高考完了,它火的一塌糊涂</view>
+  <view>
+    <text class="article-name">小必姐</text>
+    <text class="article-time">2018-07-03</text>
+  </view>
+  <view class="article-content">
+    sfsdddddddddddddddddddddddddddddddfsdf
+    sdfsdfsd
+    fsdfsdfsdfsdfsdfs
+    dfsd
+  </view>
+  <view class="article-end-container">
+    <text class="">阅读</text>
+    <text class="num">1565</text>
+    <image class="love-icon" src='../../images/love.png'></image>
+    <text class="num">123</text>
+  </view>
+</view>

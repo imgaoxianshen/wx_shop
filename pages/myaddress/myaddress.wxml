@@ -1,0 +1,40 @@
+<!--pages/myaddress/myaddress.wxml-->
+<view class='address_info'>
+<view class='top'>
+<view>李四\t17557286547</view>
+<view class='address'>浙江省杭州市西湖区紫金创业园</view>
+</view>
+<view class='bottom'>
+<view><image class='default_address_icon' src='../../images/avatar.jpeg'></image></view>
+<view class='operate'><image class='icon' src='../../images/avatar.jpeg'></image><text>\t\t\t编辑</text>
+<image class='icon' src='../../images/avatar.jpeg'></image><text>\t\t\t删除</text>
+</view>
+</view>
+</view>
+<view class='address_info'>
+<view class='top'>
+<view>李四\t17557286547</view>
+<view class='address'>浙江省杭州市西湖区紫金创业园</view>
+</view>
+<view class='bottom'>
+<view><image class='default_address_icon' src='../../images/avatar.jpeg'></image></view>
+<view class='operate'><image class='icon' src='../../images/avatar.jpeg'></image><text>\t\t\t编辑</text>
+<image class='icon' src='../../images/avatar.jpeg'></image><text>\t\t\t删除</text>
+</view>
+</view>
+</view>
+<view class='address_info'>
+<view class='top'>
+<view>李四\t17557286547</view>
+<view class='address'>浙江省杭州市西湖区紫金创业园</view>
+</view>
+<view class='bottom'>
+<view><image class='default_address_icon' src='../../images/avatar.jpeg'></image></view>
+<view class='operate'><image class='icon' src='../../images/avatar.jpeg'></image><text>\t\t\t编辑</text>
+<image class='icon' src='../../images/avatar.jpeg'></image><text>\t\t\t删除</text>
+</view>
+</view>
+</view>
+<view class='edit_address_button'>
+<button bindtap="edit_address">添加地址</button>
+</view>

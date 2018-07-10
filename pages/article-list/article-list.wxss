@@ -1,0 +1,32 @@
+.article-list-container{
+  display: flex;
+  flex-direction: column;
+  width:700rpx;
+  margin: 0 auto;
+}
+
+.article-img{
+  width:100%;
+}
+
+.article-container{
+  border-bottom:1px solid #f1f1f1;
+  margin-top:20rpx;
+}
+
+.article-title{
+  font-size:28rpx;
+  height:30rpx;
+  line-height: 30rpx;
+  display: block;
+}
+
+.article-name{
+  font-size:25rpx;
+  color:#969696;
+}
+
+.article-time{
+  font-size:25rpx;
+  color:#969696;
+}

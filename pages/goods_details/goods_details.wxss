@@ -1,0 +1,381 @@
+page {
+  background: white;
+}
+.swiper {
+  height: 600rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+   display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  margin: 10px 0px;
+}
+.title_goods{
+  box-sizing: border-box;
+  width: 80%;
+  border-right: 1px solid 	#D9D9D9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  padding-left: 20rpx;
+}
+.title_fen{
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+}
+.title_fen image{
+  width: 40rpx;
+  height: 40rpx;
+  position: relative;
+  top: -10rpx;
+}
+.fenxiang{
+  position: relative;top: -65rpx;
+  font-size: 12px;
+  color: #A8A8A8;
+}
+.qian{
+  width: 100%;
+  padding-left: 20rpx;
+  color: red
+}
+.can{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  width: 100%;margin-top: 5px;
+  color: #969696
+}
+.can_one{
+  width: 47%;
+  padding-left: 20rpx;
+  font-size: 13px;
+}
+.can_two{
+  width: 47%;
+  padding-right: 20rpx;
+  text-align: right;
+  font-size: 13px;
+}
+.miao{
+  width: 100%;
+  height: 40px;
+  background: #F2F2F2;
+  font-size: 12px;
+  line-height: 40px;
+  margin-top: 10px;
+  color: #575757
+}
+.miao image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 2rpx;
+}
+.xuan{
+  width: 100%;
+  font-size: 13px;
+  padding-left: 20rpx;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #E5E5E5
+}
+.dian{
+  width: 100%;
+  font-size: 15px;
+  padding-left: 20rpx;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+
+}
+.dian_ming{
+  width: 75%;
+  box-sizing: border-box;
+  border-right: 1px solid 	#D9D9D9;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dian_ming image{
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.dian_wu{
+  width: 20%;
+}
+.shou{
+  width: 100%;
+  position: relative;
+  font-size: 12px;
+  color: #787878;
+  text-align: center;
+height: 25px;
+line-height: 25px;
+}
+.content{
+  width: 100%;
+}
+.content image{
+  width: 100%;
+}
+
+.foot{
+   position: fixed;
+  bottom: 0px; 
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  height: 50px;
+  width: 100%;
+  background: white;
+  border-top: 1px solid #D9D9D9;
+}
+.f_one,.f_two,.f_three{
+  width: 14%;
+  border-right: 1px solid #D9D9D9;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center
+}
+.f_four,.f_five{
+  width: 29%;
+  border-right: 1px solid #D9D9D9;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+}
+.foot image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 10rpx;
+}
+.foot_title{
+  font-size: 22rpx;
+  margin-top: -8rpx
+}
+.active{
+  background: #7B418B;
+  color: white
+}
+.maskLayer{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  background: #080808;
+  opacity: 0.6
+
+}
+.choose{
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  bottom: 0px;
+  background: white
+}
+
+.shuoming{
+  width: 92%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 2%;
+  border-bottom: 1px solid #CCCCCC
+
+}
+
+
+.tiao{
+  width: 100%;
+  margin:10px 0px; 
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+}
+.tiao image{
+  width: 50rpx;
+  height: 50rpx;
+  padding-left: 20%;
+}
+.zuo{
+  width: 15%;
+}
+.you{
+  width: 75%;
+}
+.you_content{
+  margin-top: 12px;
+  font-size: 15px;
+  color: #969696
+}
+
+.s_ok{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  background: #7B418B;
+}
+
+
+.goods_xiang{
+  width: 100%;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  height: 120px;
+  border-bottom: 1px solid #BDBDBD
+}
+.goods_img{
+  width: 35%;
+}
+.goods_img image{
+  width:86%;
+height:120px;
+margin-top:-20px;
+margin-left:7%;
+
+}
+.goods_content{
+  width: 50%;
+}
+.goods_qu{
+  width: 15%;
+}
+.goods_content_price{
+color: red;
+font-size: 18px;
+margin-top: 10px;
+}
+.goods_content_wen{
+  font-size: 13px;
+  margin-top: 8px;
+}
+.goods_qu image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.yan{
+  width: 100%;
+  padding-left: 3%;
+  font-size: 16px
+}
+.yan_list{
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+}
+.yan_title{
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+.yan_active{
+  background: #7B418B;
+  color: white;
+}
+.num{
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  border-top: 1px solid #BDBDBD
+}
+.gou{
+width: 50%;
+font-size: 16px;
+height: 60px;
+line-height: 60px;
+padding-left:3%; 
+}
+.shu{
+  width:42%;
+  height: 90px;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row-reverse ;
+  flex-wrap: wrap ;
+}
+.shu view{
+  width: 20%;
+  border: 1px solid #ABABAB;
+  height: 30px;
+  margin-top: 15px;
+}
+.shu input{
+  width: 30%;
+  border: 1px solid #ABABAB;
+  height: 30px;
+  margin-top: 15px;
+  text-align: center
+}
+.jian{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center
+}
+.jia{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-align: center
+}
+.xiangou{
+  font-size: 11px;
+  color: #ABABAB;
+  text-align: right
+}
+.c_all{
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  flex-direction: row-reverse ;
+  flex-wrap: wrap ;
+}
+.jiaru,.liji{
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-top: 1px solid #ABABAB;
+}
+.mai_active{
+  color: white;
+  background: #7B418B;
+}

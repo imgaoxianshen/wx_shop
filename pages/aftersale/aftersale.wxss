@@ -1,0 +1,135 @@
+/* pages/aftersale/aftersale.wxss */
+.all{
+  margin-top: 30rpx;
+  border-top: 1rpx solid #e6e6e6;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+.clear{
+  clear: both;
+}
+.list{
+  width: 90%;
+  display: inline-block;
+  padding: 10rpx 15rpx;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #e6e6e6;
+}
+.list .title , .upload .title{
+  float: left;
+  font-size: 30rpx;
+  padding: auto 0;
+  margin-right: 40rpx;
+}
+.list .method{
+  float: left;
+  font-size: 30rpx;
+  width: 460rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list .cause{
+  float: left;
+  font-size: 30rpx;
+  width: 460rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list input{
+  float: left;
+  font-size: 30rpx;
+}
+.list .arrow_right{
+  width: 35rpx;
+  height: 35rpx;
+  margin-top:7rpx;
+}
+.upload{
+  display: inline-block;
+  padding: 20rpx 15rpx;
+  margin-left: 20rpx;
+}
+.upload .title{
+  margin-top: 15rpx;
+}
+.upload image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.upload .upload_content{
+  float: left;
+  font-size: 30rpx;
+}
+.prompt{
+  display: inline-block;
+  padding: 10rpx 15rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+}
+.prompt .prompt_content{
+  float: left;
+  font-size: 30rpx;
+  color: #949294;
+}
+.prompt .prompt_money{
+  float: left;
+  font-size: 30rpx;
+  color: red;
+}
+.bottom{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 1rpx solid #e6e6e6;
+}
+.bottom .submit{
+  float: right;
+  font-size: 35rpx;
+  color: white;
+  background-color: red;
+  padding: 20rpx 30rpx;
+  margin: 15rpx 15rpx;
+  border-radius: 10rpx;
+}
+.bottom .cancle{
+  float: right;
+  font-size: 35rpx;
+  padding: 20rpx 15rpx;
+  margin: 15rpx 15rpx;
+  border: 1rpx solid #ADAAAD;
+  border-radius: 10rpx;
+}
+.method_detail , .cause_detail{
+  font-size: 30rpx;
+  background-color: #fff;
+  width: 550rpx;
+  height: 420rpx;
+  position: fixed;
+  bottom: 500rpx;
+  left: 100rpx;
+  z-index: 1001;
+}
+.method_detail .radio-group{
+  margin: 70rpx 50rpx;
+}
+.method_detail .radio-group view{
+  margin-bottom: 30rpx;
+  min-width: 360rpx;
+}
+.cause_detail .radio-group{
+  margin: 70rpx 50rpx;
+}
+.cause_detail .radio-group view{
+  margin-bottom: 30rpx;
+  min-width: 360rpx;
+}
+.zhezhao{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  background:rgba(0,0,0,0.4);
+  overflow: hidden;
+  z-index: 1000;
+}

@@ -1,0 +1,139 @@
+/* pages/cart/cart.wxss */
+.clear {
+    clear: both;
+}
+.container {
+    padding: 3rpx 0;
+    margin-bottom: 30rpx;
+    margin-bottom: 150rpx;
+}
+.cart_detail {
+    width: 100%;
+    padding: 25rpx;
+    box-shadow: 1px 0px 2px #848284;
+    margin:30rpx 0 ;
+    background-color: #fff;
+}
+.cart_detail .circle , .settle .circle , .cart_detail .goods {
+    float: left;
+}
+.cart_detail .circle .img{
+    width: 40rpx;
+    height: 40rpx;
+    padding: 60rpx 20rpx;
+}
+.cart_detail .goods .img {
+    width: 160rpx;
+    height: 160rpx;
+}
+.cart_detail .detail {
+    float: left;
+    width: 68%;
+}
+.cart_detail .detail  .name {
+    font-family: "楷体";
+    font-size: 35rpx;
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 20rpx;
+    margin-bottom: 20rpx;
+    float: left;
+}
+.cart_detail .detail  .price {
+    font-size: 30rpx;
+    color: red;
+    padding-right: 15rpx;
+    float: left;
+}
+.cart_detail .detail  .attribute {
+    font-family: "楷体";
+    font-size: 35rpx;
+    width: 46%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 20rpx;
+}
+.num-box{
+    display: flex;
+    float: right;
+    margin-right: 20rpx;
+}
+.num-box .num-jian,
+.num-box .num-input,
+.num-box .num-jia{
+    width: 80rpx;
+    height: 64rpx;
+    line-height: 62rpx;
+    text-align: center;
+    border: 1px solid #848284;
+}
+.num-box .num-input{
+    font-size: 28rpx;
+}
+.num-box .num-input input{
+    height: 100%;
+}
+.settle {
+    width:100%;
+    background-color: #fff;
+    min-height: 100rpx;
+    box-shadow: 1px 0px 2px #848284;
+    position:fixed;
+    bottom: 0rpx;
+    z-index: 333rpx;
+}
+.settle .circle .img {
+    width: 40rpx;
+    height: 40rpx;
+    padding: 35rpx 20rpx;
+    margin-top: 7rpx;
+}
+.settle .default_all_select {
+    float: left;
+    height: 80rpx;
+    line-height: 126rpx;
+    font-family: "楷体";
+}
+
+.settle .all_select {
+    float: left;
+    height: 80rpx;
+    line-height: 126rpx;
+    font-family: "楷体";
+}
+.settle .default_button {
+    float: right;
+    font-family: "楷体";
+    font-size: 40rpx;
+    color: white;
+    border-radius: 15rpx;
+    background-color: #CECFCE;
+    padding: 20rpx 40rpx;
+    margin-top: 17rpx;
+    margin-right: 20rpx;
+}
+.settle .button {
+    float: right;
+    font-family: "楷体";
+    font-size: 40rpx;
+    color: white;
+    border-radius: 15rpx;
+    background-color: red;
+    padding: 20rpx 40rpx;
+    margin-top: 17rpx;
+    margin-right: 20rpx;
+}
+.settle .total {
+    float: right;
+    font-family: "楷体";
+    color: red;
+    padding: 40rpx 30rpx;
+}
+.settle .count {
+    float: right;
+    font-family: "楷体";
+    padding: 40rpx 0;
+}

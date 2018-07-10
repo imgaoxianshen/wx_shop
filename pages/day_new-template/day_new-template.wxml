@@ -1,0 +1,12 @@
+<template name="day_new">
+  <view class="choose-item"  bindtap="OnDayNewTap">
+    <navigator url='../goods_details/goods_details'><image mode="aspectFill" class="choose-item-image" src="../../images/day_new.png"></image></navigator>
+    <view class="choose-item-msg choose-item-msg-bj">
+      <text class="choose-item-title">时尚树叶印花T恤</text>
+    </view>
+    <view class="choose-item-msg">
+      <text class="choose-item-name">这艘希望之船，是为你而来。</text>
+      <text class="choose-item-money">￥25</text>
+    </view>
+  </view>
+</template>

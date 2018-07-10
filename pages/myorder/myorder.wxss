@@ -1,0 +1,95 @@
+  /* pages/myorder/myorder.wxss */
+  .greybg{
+  overflow: hidden; 
+}
+  .swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #E6E6E6;  
+    text-align: center;  
+    line-height: 80rpx;
+    }  
+.swiper-tab-list{ 
+    font-size: 25rpx;  
+    display: inline-block;  
+    width: 16%;  
+    color: black;  
+}  
+.on{ 
+    color: #41E7E7;  
+    border-bottom: 5rpx solid #41E7E7;}  
+  
+.swiper-box{
+   display: block;
+    width: 100%; overflow: hidden; 
+   }  
+  .order-info{
+  background-color: white;
+  color: #7F7F7F;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom:10px;
+  }
+  .hd{
+  border-bottom: 1px solid  #E6E6E6;
+  padding: 3px;
+  } 
+  .bd{
+  height: 100px;
+  }
+  .od-cancel{
+  float: right;
+  }
+  .content{
+  width:100%;
+  border-bottom: 1px solid  #E6E6E6;
+  }
+  .left{
+  float: left;
+  }
+  .middle{
+  float: left;
+  margin-left: 15px;
+  margin-top:5px;
+  }
+  .goodInfo view{
+  margin-top: 5px;
+  }
+  .user-pic{
+  width: 90px;
+  height: 80px;
+  margin-top: 10px;
+border: 1px solid  #E6E6E6;
+  }
+
+  text{
+  margin-right: 10px;
+  color:#333333;
+  }
+  .order_status{
+ color:#88549C;
+  }
+  button{
+  text-align: center;
+  width: 70px;
+  font-size: 10px;
+  border:1px solid #FF3334;
+  }
+  .bottom{
+  /* float: right; */
+  border-bottom: 1px solid  #E6E6E6;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  height: 28px; 
+  }
+
+.p4{
+   float: right; 
+  background-color: white;
+  color: #FF3334;
+
+}
+.type{
+  float:left;
+  height: 28px;
+  line-height: 28px;
+}

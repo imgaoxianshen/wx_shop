@@ -1,0 +1,71 @@
+<!--pages/aftersale/aftersale.wxml-->
+<view class='all'>
+  <view class='list'>
+    <view class='title'>处理方式</view>
+    <view class='method' bindtap='method'>
+      <view wx:if="{{m_value}}">
+        {{m_value}}
+      </view>
+      <view wx:else>
+        退货退款
+      </view>
+    </view>
+    <image class='arrow_right' src='../../images/arrow_right.png' bindtap='method'/>
+  </view>
+  <view class='clear'></view>
+  <view class='list'>
+    <view class='title'>退款原因</view>
+    <view class='cause' bindtap='cause'>
+      <view wx:if="{{c_value}}">
+        {{c_value}}
+      </view>
+      <view wx:else>
+        不想要了
+      </view>
+    </view> 
+    <image class='arrow_right' src='../../images/arrow_right.png' bindtap='cause'/>
+  </view>
+  <view class='clear'></view>
+  <view class='list'>
+    <view class='title'>退款说明</view>
+    <input bindinput="bindKeyInput" type='text' placeholder='选填' />
+  </view>
+  <view class='clear'></view>
+  <view class='list'>
+    <view class='title'>退款金额</view>
+    <input bindinput="bindKeyInput" type='text' value='389' />
+  </view>
+  <view class='clear'></view>
+  <view class='upload'>
+    <view class='title'>上传凭证</view>
+    <image src='{{src}}' bindtap='upload' ></image>
+    <!-- <view class='upload_content'>1111</view> -->
+  </view>
+  <view class='clear'></view>
+  <view class='prompt'>
+    <view class='prompt_content'>提示：您可退款的最大金额为</view>
+    <view class='prompt_money'>￥389.00</view>
+  </view>
+</view>
+<view class='bottom'>
+  <view class='cancle'>取消</view>
+  <view class='submit'>提交申请</view>
+</view>
+
+<view class='zhezhao' hidden="{{zhe_hidden}}" bindtap='zhezhao'>
+  <view class='method_detail' hidden='{{m_hidden}}'>
+    <radio-group class="radio-group">
+      <view wx:for="{{m_items}}" data-m_value="{{item.value}}" bindtap="m_radioChange">
+        <radio class="radio" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+      </view>
+    </radio-group>
+  </view>
+</view>
+
+<view class='cause_detail' hidden='{{c_hidden}}'>
+  <radio-group class="radio-group">
+    <view wx:for="{{c_items}}" data-c_value="{{item.value}}" bindtap="c_radioChange">
+      <radio class="radio" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+    </view>
+  </radio-group>
+</view>

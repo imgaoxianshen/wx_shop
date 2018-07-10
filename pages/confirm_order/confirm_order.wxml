@@ -1,0 +1,56 @@
+<!--pages/confirm_order/confirm_order.wxml-->
+<view class='all'>
+  <view style='width:100%;height:15px;'></view>
+  <view class='address'>
+    <view class='per'>
+      <view class='name'>
+      <text class='ziti'>收件人：</text>利达
+      </view>
+      <view class='mobile'>
+      18895959595
+      </view>
+    </view>
+    <view class='dizhi'>
+    <text  class='ziti'>收货地址：</text>浙江省杭州市西湖区万宇公寓123号
+    </view>
+    <image src='../../images/jt.png' style='width:40rpx;height:40rpx;position:absolute;top:42px;right:5px;'></image>
+  </view>
+  <view style='width:96%;padding:2%;font-size:14px;line-height:30px;' class='ziti'>
+  <image src='../../images/gth.png' style='width:40rpx;height:40rpx;'></image>\n因商品存在一定的生产周期。请仔细核对收获地址，提交订单后将不能修改收获地址。
+  </view> 
+  <view class='order'>
+  <view class='list_title'>JackJie户外运动</view>
+  <view class='order_info'>
+    <view class='order_img'>
+      <image src='http://img0.imgtn.bdimg.com/it/u=2298365797,4003384833&fm=27&gp=0.jpg'></image>
+    </view>
+    <view class='goods_info'>
+      <view class='goods_title'>
+        夏季运动休闲户外椅子拖鞋
+      </view>
+      <view class='size ziti'>
+      黑色，M（41-42）
+      </view>
+      <view class='goods_price'>
+      <text style='color:red;'>￥89</text>  × 1
+      </view>
+    </view>
+  </view>
+  <view class='order_yun'>
+    <view class='fangshi'><text class='ziti'>配送方式：</text>顺丰快递</view>
+    <view class='yunfei'>免运费</view>
+  </view>
+  <view class='order_liuyan'>
+    <text class='ziti'>备注留言：</text><input class='liuyan' placeholder='建议填写内容已经与商家达成一致'></input>
+  </view>
+  <view class='order_count'>
+  <text>共计1件商品    合计：</text><text>￥123</text>
+  </view>
+  </view>
+</view>
+
+ <navigator url='../pay_fail/pay_fail'>
+<view class='foot'>
+<text>实付款：</text><text>￥132</text><text class='tijiao'>提交订单</text>
+</view>
+</navigator> 
